@@ -1,4 +1,6 @@
 Use @each to Map Over Items in a List
+
+
 The last challenge showed how the @for directive uses a starting and ending value to loop a certain number of times. Sass also offers the @each directive which loops over each item in a list or map. On each iteration, the variable gets assigned to the current value from the list or map.
 
     @each $color in blue, red, green {
